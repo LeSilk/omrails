@@ -29,7 +29,7 @@ body {
 
 /* Required for jQuery Masonry */
 
-.box {
+div.box {
 	margins: 5px;
 	padding: 5px;
 	font-size: 11px;
@@ -43,7 +43,6 @@ body {
 }
 
 .box img {
-	display: block;
 	width: 100%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;

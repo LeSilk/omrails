@@ -1,4 +1,4 @@
-<div clas="box">
+<div class="box">
 	<%= link_to (image_tag pin.image(:medium)), pin %>
 	<p class="description">
 		<%= pin.description %>
@@ -7,6 +7,7 @@
 		<strong>
 			Posted by <%= pin.user.name %>
 		</strong>
+	</p>
 	<% if current_user == pin.user %>
 		<p>
 			<%= link_to 'Edit', edit_pin_path(pin) %>
